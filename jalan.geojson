@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "jalan",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "jl. Raya": "jl. Raya" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ 101.459498597289112, -0.661479111809537 ], [ 101.459472929975831, -0.660401084651606 ], [ 101.459780937735246, -0.659804319617751 ], [ 101.460011943554804, -0.659785069132788 ], [ 101.46071137784179, -0.660157245175407 ] ] ] } }
+]
+}
