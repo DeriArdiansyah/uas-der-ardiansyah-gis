@@ -10,13 +10,13 @@
 <body>
     <div id="map" style="height: 500px;"></div>
     <script>
-        var map = L.map('map').setView([-6.200, 106.816], 10); // Sesuaikan koordinat dengan lokasi
+        var map = L.map('map').setView([-0.691160, 101.430396], 10); // Sesuaikan koordinat dengan lokasi
 
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-        fetch('https://raw.githubusercontent.com/USERNAME/REPO/main/data.geojson') // Ganti dengan URL file di GitHub
+        fetch('https://deriardiansyah.github.io/uas-der-ardiansyah-gis/') // Ganti dengan URL file di GitHub
             .then(response => response.json())
             .then(data => {
                 L.geoJSON(data).addTo(map);
